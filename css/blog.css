@@ -1,0 +1,12 @@
+@import 'style.css';
+
+header {
+   text-align: center;
+   background: url('../images/laptop.jpg') no-repeat top center;
+   background-size: cover;
+   overflow: hidden;
+   padding-top: 60px;
+}
+ 
+
+ 
