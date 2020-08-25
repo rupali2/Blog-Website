@@ -1,4 +1,4 @@
-@import 'style.css';
+@import 'home.css';
 
 header {
    text-align: center;
@@ -9,4 +9,47 @@ header {
 }
  
 
- 
+ button {
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    font-weight: bold;
+ }
+
+ button:hover{
+    background-color: lightcoral;
+ }
+
+ .cards {
+   max-width: 1200px;
+   padding-top: 100px;
+   margin: 0 auto;
+   display: grid;
+   grid-gap: 1rem;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   
+   
+ }
+  
+ figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 320px;
+  margin: auto;
+}
+
+img {
+  max-width: 320px;
+  max-height: 450px;
+}
+
+figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+
